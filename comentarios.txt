@@ -1,0 +1,6 @@
+Clean Architecture e TDD ou Arquitetura orientada a testes
+
+Configurando o projeto
+
+1° criar o package.json
+npm init 
