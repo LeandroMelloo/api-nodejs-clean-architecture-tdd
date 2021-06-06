@@ -3,4 +3,8 @@ Clean Architecture e TDD ou Arquitetura orientada a testes
 Configurando o projeto
 
 1° criar o package.json
-npm init 
+npm init
+
+2° comitando todas as alterações por pequenos commits por boa prática
+git add .
+git commit -m "add npm init"
