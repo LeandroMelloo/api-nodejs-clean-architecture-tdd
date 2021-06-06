@@ -8,12 +8,13 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard"
+      "standard --fix", 
+      "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npx lint-staged"
     }
   },
   "keywords": [
