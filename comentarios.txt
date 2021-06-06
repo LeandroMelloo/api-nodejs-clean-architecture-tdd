@@ -13,3 +13,5 @@ git commit -m "add npm init"
 biblioteca standard é similar ao eslint
 npm i standard
 npm i lint-staged -D
+npm i husk@next -D
+npm i jest -D
