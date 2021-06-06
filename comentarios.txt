@@ -12,3 +12,4 @@ git commit -m "add npm init"
 3° adicionando as dependencias do projeto, -D é só para desenvolvimento
 biblioteca standard é similar ao eslint
 npm i standard
+npm i lint-staged -D
