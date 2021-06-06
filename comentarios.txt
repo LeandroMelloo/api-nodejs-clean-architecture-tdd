@@ -8,3 +8,7 @@ npm init
 2° comitando todas as alterações por pequenos commits por boa prática
 git add .
 git commit -m "add npm init"
+
+3° adicionando as dependencias do projeto, -D é só para desenvolvimento
+biblioteca standard é similar ao eslint
+npm i standard
