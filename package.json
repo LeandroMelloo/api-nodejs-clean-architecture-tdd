@@ -6,17 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "keywords": [
     "NodeJS",
-    "Clean",
-    "Architecture",
-    "e",
+    "Clean Architecture",
     "TDD"
   ],
   "author": "Leandro Mello",
   "license": "ISC",
   "devDependencies": {
-    "lint-staged": "^11.0.0",
-    "standard": "^16.0.3"
+    "lint-staged": "^9.4.3",
+    "standard": "^14.3.1",
+    "husky": "^4.0.0-beta.5"
   }
 }
